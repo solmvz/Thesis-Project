@@ -1,0 +1,31 @@
+
+\begin{document}
+    \frontmatter
+    \input{preface/title-page}
+    \input{preface/copyright}
+    \input{preface/dedication}
+    \input{preface/abstract}
+    \input{preface/acknowledgements}
+    \input{preface/table-of-contents}
+    \cleardoublepage
+
+    \mainmatter
+    %\input{chapters/introduction}
+    %\input{chapters/background}
+    %\input{chapters/literature}
+    %\input{chapters/method}
+    %\input{chapters/experiments}
+    \input{chapters/results}
+    %\input{chapters/conclusion}
+    
+
+    \appendix
+    \input{appendix/appendice-a}
+
+    \backmatter
+    \printglossary[type=\acronymtype, title=Acronyms and Abbreviations, toctitle=Acronyms and Abbreviations]
+    \printglossary[type=main, title=Glossary, toctitle=Glossary]
+
+    \input{appendix/bibliography}
+
+\end{document}
